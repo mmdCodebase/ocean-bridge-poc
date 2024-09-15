@@ -1,0 +1,184 @@
+{
+  "defaultWorkflowStepId": "e60b4840-f858-437a-919a-049e3a2254a1",
+  "tree": [
+  {
+    "id": "e60b4840-f858-437a-919a-049e3a2254a1|0|10",
+    "parentId": "",
+    "level": 0,
+    "sortOrder": 10,
+    "url": "|",
+    "text": "Transportation",
+    "expanded": false,
+    "selected": false,
+    "hasChildren": true,
+    "children": [
+      {
+        "id": "e60b4840-f858-437a-919a-049e3a2254a1|1|10",
+        "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|0|10",
+        "level": 1,
+        "sortOrder": 10,
+        "url": "|974dc4d6-1ac7-47dd-8663-8e0a20f08997",
+        "text": "Delivery Center",
+        "expanded": false,
+        "selected": false,
+        "hasChildren": true,
+        "children": [
+          {
+            "id": "e60b4840-f858-437a-919a-049e3a2254a1|2|10",
+            "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|1|10",
+            "level": 2,
+            "sortOrder": 10,
+            "url": "|AFE95225-2F1B-4F21-8CE1-9C698895A991|974dc4d6-1ac7-47dd-8663-8e0a20f08997",
+            "text": "Purchase Orders",
+            "expanded": false,
+            "selected": false,
+            "hasChildren": true,
+            "children": [
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|10",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|10",
+                "level": 3,
+                "sortOrder": 10,
+                "url": "B357149D-5494-40CF-A5C4-95E750CFB0EA|AFE95225-2F1B-4F21-8CE1-9C698895A991|974dc4d6-1ac7-47dd-8663-8e0a20f08997",
+                "text": "Open PO List",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              },
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|20",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|10",
+                "level": 3,
+                "sortOrder": 20,
+                "url": "DB7D66F0-A83C-468D-92C7-5705B0802F08|AFE95225-2F1B-4F21-8CE1-9C698895A991|974dc4d6-1ac7-47dd-8663-8e0a20f08997",
+                "text": "Closed PO List",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              }
+            ]
+          },
+          {
+            "id": "e60b4840-f858-437a-919a-049e3a2254a1|2|20",
+            "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|1|10",
+            "level": 2,
+            "sortOrder": 20,
+            "url": "|52C8E423-7B9C-48DA-A88D-AC1055B86DF4|974dc4d6-1ac7-47dd-8663-8e0a20f08997",
+            "text": "Shipments",
+            "expanded": false,
+            "selected": false,
+            "hasChildren": true,
+            "children": [
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|30",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|20",
+                "level": 3,
+                "sortOrder": 30,
+                "url": "FA7762D0-FE65-4906-99C7-FB2F98FCA275|52C8E423-7B9C-48DA-A88D-AC1055B86DF4|974dc4d6-1ac7-47dd-8663-8e0a20f08997",
+                "text": "Inbound Shipments",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              },
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|40",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|20",
+                "level": 3,
+                "sortOrder": 40,
+                "url": "E90437D0-476D-4929-80BE-4373DEAB073F|52C8E423-7B9C-48DA-A88D-AC1055B86DF4|974dc4d6-1ac7-47dd-8663-8e0a20f08997",
+                "text": "Outbound Shipments",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e60b4840-f858-437a-919a-049e3a2254a1|1|20",
+        "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|0|10",
+        "level": 1,
+        "sortOrder": 20,
+        "url": "|654A5A01-A104-472C-9D37-3E8E1A0D316D",
+        "text": "Store",
+        "expanded": false,
+        "selected": false,
+        "hasChildren": true,
+        "children": [
+          {
+            "id": "e60b4840-f858-437a-919a-049e3a2254a1|2|30",
+            "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|1|20",
+            "level": 2,
+            "sortOrder": 30,
+            "url": "|AB447B14-2E7D-4748-AB10-77B5D81F8750|654A5A01-A104-472C-9D37-3E8E1A0D316D",
+            "text": "Purchase Orders",
+            "expanded": false,
+            "selected": false,
+            "hasChildren": true,
+            "children": [
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|50",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|30",
+                "level": 3,
+                "sortOrder": 50,
+                "url": "B5A1C9C4-32EA-4E41-9A26-D3A3F5D7E1F5|AB447B14-2E7D-4748-AB10-77B5D81F8750|654A5A01-A104-472C-9D37-3E8E1A0D316D",
+                "text": "Open PO List",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              },
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|60",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|30",
+                "level": 3,
+                "sortOrder": 60,
+                "url": "50B73334-1D19-4672-8E3D-E077C77F2FEB|AB447B14-2E7D-4748-AB10-77B5D81F8750|654A5A01-A104-472C-9D37-3E8E1A0D316D",
+                "text": "Closed PO List",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              }
+            ]
+          },
+          {
+            "id": "e60b4840-f858-437a-919a-049e3a2254a1|2|40",
+            "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|1|20",
+            "level": 2,
+            "sortOrder": 40,
+            "url": "|8D796BA5-87CB-46ED-B1F7-8BF58777D02D|654A5A01-A104-472C-9D37-3E8E1A0D316D",
+            "text": "Shipments",
+            "expanded": false,
+            "selected": false,
+            "hasChildren": true,
+            "children": [
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|70",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|40",
+                "level": 3,
+                "sortOrder": 70,
+                "url": "E490C6FC-86C1-46C1-A913-5DD587DB8847|8D796BA5-87CB-46ED-B1F7-8BF58777D02D|654A5A01-A104-472C-9D37-3E8E1A0D316D",
+                "text": "Inbound Shipments",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              },
+              {
+                "id": "e60b4840-f858-437a-919a-049e3a2254a1|3|80",
+                "parentId": "e60b4840-f858-437a-919a-049e3a2254a1|2|40",
+                "level": 3,
+                "sortOrder": 80,
+                "url": "065182DA-704A-4F0B-B396-DBEAB66AD7C3|8D796BA5-87CB-46ED-B1F7-8BF58777D02D|654A5A01-A104-472C-9D37-3E8E1A0D316D",
+                "text": "Outbound Shipments",
+                "expanded": false,
+                "selected": false,
+                "hasChildren": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,162 @@
+{
+  "columns": [
+    {
+      "field": null,
+      "title": null,
+      "width": 20,
+      "template": "<label class='cb-container'><input name='selectrowcheckbox' type='checkbox' class='selectrowcheckbox' /><span class='checkmark'></span></label>",
+      "headerTemplate": "<label class='cb-container'><input id='headercheckbox' type='checkbox' class='headercheckbox' /><span class='checkmark'></span></label>",
+      "locked": false,
+      "hidden": false,
+      "menu": true,
+      "attributes": null,
+      "columnType": null,
+      "editor": null,
+      "dataGroupColumnID": null,
+      "format": null,
+      "compareFunction": null,
+      "dropDownName": null
+    },
+    {
+      "field": "OrderID",
+      "title": "OrderID",
+      "width": 108,
+      "template": null,
+      "headerTemplate": null,
+      "locked": false,
+      "hidden": true,
+      "menu": false,
+      "attributes": {
+        "class": ""
+      },
+      "columnType": null,
+      "editor": null,
+      "dataGroupColumnID": "5500A326-089B-4E88-84C5-B45326D7EBC3",
+      "format": null,
+      "compareFunction": null,
+      "dropDownName": ""
+    },
+    {
+      "field": "AGLOrderNumber",
+      "title": "Order Number",
+      "width": 108,
+      "template": null,
+      "headerTemplate": null,
+      "locked": false,
+      "hidden": false,
+      "menu": true,
+      "attributes": {
+        "class": "editable-cell"
+      },
+      "columnType": null,
+      "editor": null,
+      "dataGroupColumnID": "9495AFF7-821C-426F-9918-0E03FE2C2DAD",
+      "format": null,
+      "compareFunction": null,
+      "dropDownName": ""
+    },
+    {
+      "field": "OrderType_DataChoiceID",
+      "title": "Order Type",
+      "width": 108,
+      "template": "#=DropDownTemplateName_OrderType(OrderType_DataChoiceID)#",
+      "headerTemplate": null,
+      "locked": false,
+      "hidden": false,
+      "menu": true,
+      "attributes": {
+        "class": "editable-cell"
+      },
+      "columnType": "DropDownList",
+      "editor": "DropDownFunctionName_OrderType",
+      "dataGroupColumnID": "F791BAF8-9C4B-4DA6-A326-EB4A1DEB6B59",
+      "format": null,
+      "compareFunction": "DropDownDataSource_OrderType_Sort",
+      "dropDownName": ""
+    },
+    {
+      "field": "OriginPortDepartedEstimated",
+      "title": "ETD",
+      "width": 108,
+      "template": null,
+      "headerTemplate": null,
+      "locked": false,
+      "hidden": false,
+      "menu": true,
+      "attributes": {
+        "class": "editable-cell"
+      },
+      "columnType": null,
+      "editor": null,
+      "dataGroupColumnID": "8F60DC73-DBEA-48AD-B496-4B46D9A53D76",
+      "format": null,
+      "compareFunction": null,
+      "dropDownName": ""
+    },
+    {
+      "field": "ActionID",
+      "title": "ActionID",
+      "width": 0,
+      "template": null,
+      "headerTemplate": null,
+      "locked": false,
+      "hidden": true,
+      "menu": false,
+      "attributes": {
+        "class": "editable-cell"
+      },
+      "columnType": null,
+      "editor": null,
+      "dataGroupColumnID": "",
+      "format": null,
+      "compareFunction": null,
+      "dropDownName": ""
+    }
+  ],
+  "model": {
+    "id": "OrderID",
+    "fields": {
+      "OrderID": {
+        "editable": false,
+        "nullable": false,
+        "validation": {
+          "required": false,
+          "customvalidator": null
+        }
+      },
+      "AGLOrderNumber": {
+        "editable": true,
+        "nullable": false,
+        "validation": {
+          "required": false,
+          "customvalidator": null
+        }
+      },
+      "OrderType_DataChoiceID": {
+        "editable": true,
+        "nullable": false,
+        "validation": {
+          "required": false,
+          "customvalidator": null
+        }
+      },
+      "OriginPortDepartedEstimated": {
+        "type": "string",
+        "editable": true,
+        "nullable": false,
+        "validation": {
+          "required": false,
+          "customvalidator": "dateValidation"
+        }
+      },
+      "ActionID": {
+        "editable": true,
+        "nullable": true,
+        "validation": {
+          "required": false,
+          "customvalidator": null
+        }
+      }
+    }
+  }
+}

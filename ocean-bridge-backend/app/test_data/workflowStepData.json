@@ -1,0 +1,23 @@
+{ "WorkflowStepData": 
+{
+  "WorkflowStepID": "44EEEF79-D086-4802-A5F2-905976D700D8",
+  "IgnoreWarnings":"0",
+  "Columns":
+  [
+     {
+	     "DataGroupColumnID":"202B853F-31C4-4177-B03C-61D485D9816D",
+	     "ColumnSortOrder":"7",
+	     "ColumnValue":"Test",
+	     "OriginalValue":"Test", 
+	     "KeyValue":"00000000-0000-0000-0000-000000000000"
+     },
+     {
+	     "DataGroupColumnID":"9199ADE4-5B00-411F-AABB-3D4CBE49A77C",
+	     "ColumnSortOrder":"8",
+	     "ColumnValue":"Test2",
+	     "OriginalValue":"Test2", 
+	     "KeyValue":"00000000-0000-0000-0000-000000000000"	
+     }
+  ]
+}      
+}

@@ -1,0 +1,1169 @@
+{
+    "div_list": [
+      {
+        "order": 1,
+        "style": {
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 1,
+              "style": {
+                "container_type": "panel",
+                "container_text": "Text Fields Examples",
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 6,
+                  "lg": 6
+                }
+              },
+              "content": {
+                "content_type": "div_list",
+                "div_list": [
+                  {
+                    "order": 1,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 6,
+                        "md": 6,
+                        "lg": 6
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_1"
+                    }
+                  },
+                  {
+                    "order": 2,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 6,
+                        "md": 6,
+                        "lg": 6
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_2"
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 12,
+                        "md": 12,
+                        "lg": 12
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_6"
+                    }
+                  },
+                  {
+                    "order": 7,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 12,
+                        "md": 6,
+                        "lg": 6
+                      }
+                    },
+                    "content": {
+                      "content_type": "number_field",
+                      "content_id": "ITEM_field_15"
+                    }
+                  },
+                  {
+                    "order": 43,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 12,
+                        "md": 6,
+                        "lg": 6
+                      }
+                    },
+                    "content": {
+                      "content_type": "hyperlink",
+                      "content_id": "ITEM_hyperlink_27"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "order": 2,
+              "style": {
+                "container_type": "panel",
+                "container_text": "Password & TextArea",
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 6,
+                  "lg": 6
+                }
+              },
+              "content": {
+                "content_type": "div_list",
+                "div_list": [
+                  {
+                    "order": 2,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 5,
+                        "md": 5,
+                        "lg": 5
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_5"
+                    }
+                  },
+                  {
+                    "order": 2,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 2,
+                        "md": 2,
+                        "lg": 2
+                      }
+                    },
+                    "content": {
+                      "content_type": "empty_space",
+                      "content_id": ""
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 5,
+                        "md": 5,
+                        "lg": 5
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_3"
+                    }
+                  },
+                  {
+                    "order": 2,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 12,
+                        "md": 12,
+                        "lg": 12
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_4"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 1,
+        "style": {
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "empty_space",
+          "content_id": ""
+        }
+      },
+      {
+        "order": 1,
+        "style": {
+          "container_type": "panel",
+          "container_text": "DateTime Examples",
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 3,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 6,
+                  "lg": 6
+                }
+              },
+              "content": {
+                "content_type": "date_time",
+                "content_id": "ITEM_field_12"
+              }
+            },
+            {
+              "order": 4,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 6,
+                  "lg": 6
+                }
+              },
+              "content": {
+                "content_type": "date_time",
+                "content_id": "ITEM_field_13"
+              }
+            },
+            {
+              "order": 5,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 6,
+                  "lg": 6
+                }
+              },
+              "content": {
+                "content_type": "date_time",
+                "content_id": "ITEM_field_14"
+              }
+            },
+            {
+              "order": 6,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 6,
+                  "lg": 6
+                }
+              },
+              "content": {
+                "content_type": "date_time",
+                "content_id": "ITEM_field_16"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 1,
+        "style": {
+          "container_type": "panel",
+          "container_text": "Picklist Example",
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 8,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 6,
+                  "lg": 4
+                }
+              },
+              "content": {
+                "content_type": "pick_list",
+                "content_id": "ITEM_field_17"
+              }
+            },
+            {
+              "order": 9,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 6,
+                  "lg": 4
+                }
+              },
+              "content": {
+                "content_type": "pick_list",
+                "content_id": "ITEM_field_18"
+              }
+            },
+            {
+              "order": 50,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 6,
+                  "lg": 4
+                }
+              },
+              "content": {
+                "content_type": "pick_list",
+                "content_id": "ITEM_field_19"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 2,
+        "style": {
+          "container_type": "panel",
+          "container_text": "Button Examples",
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 1,
+              "style": {
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 3,
+                  "lg": 2
+                }
+              },
+              "content": {
+                "content_type": "button",
+                "content_id": "ITEM_button_7"
+              }
+            },
+            {
+              "order": 2,
+              "style": {
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 3,
+                  "lg": 2
+                }
+              },
+              "content": {
+                "content_type": "button",
+                "content_id": "ITEM_button_8"
+              }
+            },
+            {
+              "order": 3,
+              "style": {
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 3,
+                  "lg": 2
+                }
+              },
+              "content": {
+                "content_type": "button",
+                "content_id": "ITEM_button_9"
+              }
+            },
+            {
+              "order": 4,
+              "style": {
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 3,
+                  "lg": 2
+                }
+              },
+              "content": {
+                "content_type": "button",
+                "content_id": "ITEM_button_10"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 2,
+        "style": {
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 1,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 12,
+                  "lg": 12
+                }
+              },
+              "content": {
+                "content_type": "data_grid",
+                "content_id": "ITEM-TABLE-2"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 2,
+        "style": {
+          "container_type": "panel",
+          "container_text": "Markdown Examples",
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 1,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 10,
+                  "lg": 12
+                }
+              },
+              "content": {
+                "content_type": "markdown",
+                "content_id": "ITEM_markdown_11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 1,
+        "style": {
+          "container_type": "panel",
+          "container_text": "Ship Deliver Form",
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 1,
+              "style": {
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 3,
+                  "lg": 6
+                }
+              },
+              "content": {
+                "content_type": "text_field",
+                "content_id": "ITEM_field_20"
+              }
+            },
+            {
+              "order": 2,
+              "style": {
+                "responsiveness": {
+                  "sm": 6,
+                  "md": 3,
+                  "lg": 2
+                }
+              },
+              "content": {
+                "content_type": "button",
+                "content_id": "ITEM_button_21"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 11,
+        "style": {
+          "container_type": "accordion",
+          "container_text": "Shipper Details",
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 1,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 12,
+                  "lg": 12
+                }
+              },
+              "content": {
+                "content_type": "div_list",
+                "div_list": [
+                  {
+                    "order": 1,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 6,
+                        "md": 6,
+                        "lg": 6
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_22"
+                    }
+                  },
+                  {
+                    "order": 2,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 6,
+                        "md": 6,
+                        "lg": 6
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_23"
+                    }
+                  },
+                  {
+                    "order": 7,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 12,
+                        "md": 6,
+                        "lg": 6
+                      }
+                    },
+                    "content": {
+                      "content_type": "text_field",
+                      "content_id": "ITEM_field_24"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "order": 1,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 12,
+                  "lg": 12
+                }
+              },
+              "content": {
+                "content_type": "div_list",
+                "div_list": [
+                  {
+                    "order": 1,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 9,
+                        "md": 10,
+                        "lg": 11
+                      }
+                    },
+                    "content": {
+                      "content_type": "empty_space"
+                    }
+                  },
+                  {
+                    "order": 2,
+                    "style": {
+                      "responsiveness": {
+                        "sm": 3,
+                        "md": 2,
+                        "lg": 1
+                      }
+                    },
+                    "content": {
+                      "content_type": "button",
+                      "content_id": "ITEM_button_25"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "order": 22,
+        "style": {
+          "container_type": "panel",
+          "container_text": "HTML Examples",
+          "responsiveness": {
+            "sm": 12,
+            "md": 12,
+            "lg": 12
+          }
+        },
+        "content": {
+          "content_type": "div_list",
+          "div_list": [
+            {
+              "order": 1,
+              "style": {
+                "responsiveness": {
+                  "sm": 12,
+                  "md": 10,
+                  "lg": 12
+                }
+              },
+              "content": {
+                "content_type": "html",
+                "content_id": "ITEM_html_26"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "data_grids": [
+      {
+        "content_id": "ITEM-TABLE-2",
+        "grid_options": {
+          "title": "Ships Data",
+          "sticky_header": true,
+          "table_size": "medium",
+          "pagination": true,
+          "toolbar_options": [
+            {
+              "order": 1,
+              "name": "data_grid",
+              "display_as": "Export",
+              "icon_group_id": "icon-group-grid-table",
+              "icon": "table-grid-options-100",
+              "options": [
+                {
+                  "name": "export_csv",
+                  "display_as": "Export as CSV",
+                  "icon": "export-action-100"
+                },
+                {
+                  "name": "import_csv",
+                  "display_as": "Import CSV",
+                  "icon": "export-action-100"
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "name": "views",
+              "display_as": "Views",
+              "icon_group_id": "icon-group-grid-table",
+              "icon": "views-100",
+              "options": [
+                {
+                  "name": "data_grid",
+                  "display_as": "Data Grid",
+                  "icon": "table-grid-100"
+                },
+                {
+                  "name": "map",
+                  "display_as": "Map",
+                  "icon": "map-100"
+                },
+                {
+                  "name": "calendar",
+                  "display_as": "Calendar",
+                  "icon": "calendar-100"
+                },
+                {
+                  "name": "list_task",
+                  "display_as": "List Task",
+                  "icon": "list-task-100"
+                },
+                {
+                  "name": "something",
+                  "display_as": "something Else",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "order": 3,
+              "name": "communication",
+              "display_as": "Communication",
+              "icon_group_id": "icon-group-grid-table",
+              "icon": "communication-100",
+              "options": [
+                {
+                  "name": "email_pdf",
+                  "display_as": "Email as Pdf Attachment",
+                  "icon": "email-sent-100"
+                },
+                {
+                  "name": "email_csv",
+                  "display_as": "Email as CSV Attchment",
+                  "icon": "email-sent-100"
+                }
+              ]
+            }
+          ]
+        },
+        "column_definations": [
+          {
+            "column_id": "id",
+            "column_name": "id",
+            "column_display_name": "ID",
+            "tooltip_description": "this is the text",
+            "type": "number",
+            "styles": {
+              "width": 80
+            },
+            "editable": false,
+            "align": "left",
+            "header_align": "left",
+            "sorting": true,
+            "default_sort": "asc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "decimal_separator": null,
+              "decimal_places": 0,
+              "is_percent": false,
+              "prefix": "",
+              "postfix": "",
+              "float_allowed": false
+            }
+          },
+          {
+            "column_id": "ITEM_row_1",
+            "column_name": "image",
+            "column_display_name": "Image",
+            "tooltip_description": "Show Image",
+            "type": "image",
+            "styles": {
+              "width": 100
+            },
+            "editable": false,
+            "align": "left",
+            "header_align": "left",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "display_as": "contain"
+            }
+          },
+          {
+            "column_id": "ITEM_row_12",
+            "column_name": "rating",
+            "column_display_name": "Rating Ship Icon",
+            "tooltip_description": "Rating Ship Icon",
+            "type": "number",
+            "styles": {
+              "width": 150
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "icon_group_id": "icon-group-1",
+              "display_type": "rating",
+              "icon_fill": "cruise-filled-100",
+              "icon_unfilled": "cruise-unfilled-100"
+            }
+          },
+          {
+            "column_id": "ITEM_row_2",
+            "column_name": "city",
+            "column_display_name": "City",
+            "tooltip_description": "Show city",
+            "type": "text",
+            "styles": {
+              "width": 140
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "left",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false
+          },
+          {
+            "column_id": "ITEM_row_3",
+            "column_name": "ship",
+            "column_display_name": "Ship",
+            "tooltip_description": "Show Bayblade team members",
+            "type": "text",
+            "styles": {
+              "width": 150
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "left",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "display_type": "textIcon",
+              "edit_type": "pick_list",
+              "options_type": "local",
+              "options": [
+                {
+                  "value": "approved",
+                  "display_as": "Approved",
+                  "icon": "approved"
+                },
+                {
+                  "value": "rejected",
+                  "display_as": "Rejected",
+                  "icon": "rejected"
+                },
+                {
+                  "value": "on hold",
+                  "display_as": "On Hold",
+                  "icon_name": ""
+                },
+                {
+                  "value": "error",
+                  "display_as": "Error",
+                  "icon_name": ""
+                },
+                {
+                  "value": "fraud alert",
+                  "display_as": "Fraud Alert",
+                  "icon_name": ""
+                }
+              ],
+              "icon_group_id": "icon-group-1",
+              "placeholder": "Select Item",
+              "icon_placement": "start_of"
+            }
+          },
+          {
+            "column_id": "ITEM_row_4",
+            "column_name": "date",
+            "column_display_name": "Date",
+            "tooltip_description": "Show Date",
+            "type": "datetime",
+            "styles": {
+              "width": 200
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "left",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "date_time_type": "date",
+              "date_time_format": "YYYY-MM-DD",
+              "show_timezone": true
+            }
+          },
+          {
+            "column_id": "ITEM_row_8",
+            "column_name": "status_outline_icon",
+            "column_display_name": "Status Outline Icon",
+            "tooltip_description": "",
+            "type": "text",
+            "styles": {
+              "width": 100
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "asc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "edit_type": "pick_list",
+              "options_type": "local",
+              "display_type": "chip",
+              "placeholder": "Add Status Ouline Icon",
+              "icon_group_id": "icon-group-1",
+              "options": [
+                {
+                  "value": "fp",
+                  "display_as": "FP",
+                  "chip_type": "outlined",
+                  "chip_border_color": "#CD853F",
+                  "chip_color": "#FF1493",
+                  "icon": "bookmark-green"
+                },
+                {
+                  "value": "cr",
+                  "display_as": "CR",
+                  "chip_type": "outlined",
+                  "chip_border_color": "#CD853F",
+                  "chip_color": "#FF1493",
+                  "icon": "bookmark-red"
+                }
+              ]
+            }
+          },
+          {
+            "column_id": "ITEM_row_5",
+            "column_name": "fee_amount",
+            "column_display_name": "Fee Amount",
+            "tooltip_description": "Ship Fee Amount",
+            "type": "number",
+            "styles": {
+              "width": 150
+            },
+            "editable": true,
+            "align": "right",
+            "header_align": "left",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "defualt_value": null,
+              "decimal_separator": null,
+              "decimal_places": 0,
+              "is_percent": false,
+              "prefix": "$",
+              "postfix": "",
+              "float_allowed": false,
+              "display_as": null
+            }
+          },
+          {
+            "column_id": "ITEM_row_6",
+            "column_name": "status",
+            "column_display_name": "Status",
+            "tooltip_description": "Show Status",
+            "type": "text",
+            "styles": {
+              "width": 100
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "asc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "edit_type": "pick_list",
+              "options_type": "local",
+              "display_type": "chip",
+              "placeholder": "Add Status",
+              "options": [
+                {
+                  "value": "open",
+                  "display_as": "Open",
+                  "chip_type": "outlined",
+                  "chip_border_color": "#008B8B",
+                  "chip_color": "#008B8B"
+                },
+                {
+                  "value": "filled",
+                  "display_as": "Filled",
+                  "chip_type": "outlined",
+                  "chip_border_color": "#CD853F",
+                  "chip_color": "#FF1493"
+                }
+              ]
+            }
+          },
+          {
+            "column_id": "ITEM_row_9",
+            "column_name": "fine_amount",
+            "column_display_name": "Fine Amount",
+            "tooltip_description": "Ship Fine Amount",
+            "type": "number",
+            "styles": {
+              "width": 150
+            },
+            "editable": true,
+            "align": "right",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "defualt_value": null,
+              "decimal_separator": null,
+              "decimal_places": 0,
+              "is_percent": false,
+              "prefix": "",
+              "postfix": "USD",
+              "float_allowed": false,
+              "display_as": null
+            }
+          },
+          {
+            "column_id": "ITEM_row_7",
+            "column_name": "status_filled",
+            "column_display_name": "Status Filled",
+            "tooltip_description": "Show Status Filled",
+            "type": "text",
+            "styles": {
+              "width": 100
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "asc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "edit_type": "pick_list",
+              "options_type": "local",
+              "display_type": "chip",
+              "placeholder": "Add Status Filled",
+              "options": [
+                {
+                  "value": "fixed",
+                  "display_as": "Fixed",
+                  "chip_type": "contained",
+                  "chip_border_color": "#CD853F",
+                  "chip_background_color": "#000080",
+                  "chip_color": "#ffffff"
+                },
+                {
+                  "value": "floating",
+                  "display_as": "Floating",
+                  "chip_type": "contained",
+                  "chip_border_color": "#CD853F",
+                  "chip_background_color": "#9400D3",
+                  "chip_color": "#ffffff"
+                }
+              ]
+            }
+          },
+          {
+            "column_id": "ITEM_row_10",
+            "column_name": "progress",
+            "column_display_name": "Progress",
+            "tooltip_description": "Progress Bar",
+            "type": "number",
+            "styles": {
+              "width": 150
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "display_type": "progress_bar",
+              "defualt_value": null,
+              "decimal_separator": null,
+              "decimal_places": 0,
+              "is_percent": false,
+              "prefix": "",
+              "postfix": "%",
+              "float_allowed": false,
+              "display_as": null
+            }
+          },
+          {
+            "column_id": "ITEM_row_11",
+            "column_name": "rating",
+            "column_display_name": "Rating",
+            "tooltip_description": "Add Ship Rating",
+            "type": "number",
+            "styles": {
+              "width": 150
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "icon_group_id": "icon-group-1",
+              "display_type": "rating",
+              "icon_fill": "diamond-filled-100",
+              "icon_unfilled": "diamond-unfilled-100"
+            }
+          },
+          {
+            "column_id": "ITEM_row_13",
+            "column_name": "rating",
+            "column_display_name": "Rating Fallback Icon",
+            "tooltip_description": "Rating Fallback Icon",
+            "type": "number",
+            "styles": {
+              "width": 150
+            },
+            "editable": true,
+            "align": "left",
+            "header_align": "center",
+            "sorting": true,
+            "default_sort": "desc",
+            "filtering": "true",
+            "hidden": false,
+            "functional_attributes": {
+              "icon_group_id": "icon-group-1",
+              "display_type": "rating",
+              "icon_fill": "star-filled-not-exists",
+              "icon_unfilled": "star-filled-not-exists"
+            }
+          },
+          {
+            "column_id": "actions",
+            "column_name": "Actions",
+            "column_display_name": "Actions",
+            "tooltip_description": "Edit/Delete",
+            "type": "actions",
+            "styles": {
+              "width": 120
+            },
+            "editable": false,
+            "align": "left",
+            "header_align": "center",
+            "sorting": false,
+            "default_sort": "desc",
+            "filtering": "false",
+            "hidden": false,
+            "functional_attributes": {
+              "display_type": "actions",
+              "edit": "true",
+              "delete": "true"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

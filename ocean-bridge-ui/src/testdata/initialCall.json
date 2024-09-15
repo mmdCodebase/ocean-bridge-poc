@@ -1,0 +1,335 @@
+{
+
+    "User": {
+      "UserID": "F41ED4D8-50E9-494C-983C-D443FD8B06F5",
+      "UserName": "ASITMS",
+      "FirstName" : "Angela",
+      "LastName" : "Haddox",
+      "Email" : "angela.haddox@americansignature.com",
+      "UserTypeID" : "648036FE-1B83-49EB-A617-2FF632D67BDA",
+      "UserType":"TMS Customer",
+      "DepartmentID":"",
+      "Department":"",
+      "OfficeLocationID":"",
+      "OfficeLocation":"",
+      "CompanyID":"48945ECE-DDD8-464A-86D4-DF2A79E2C2E1",
+      "CompanyName":"ASI",
+      "ParentCompanyID":"48945ECE-DDD8-464A-86D4-DF2A79E2C2E1",
+      "ParentCompanyName":"ASI"
+      },
+      
+      "Workflows":
+      [
+        {
+            "Workflow_WorkFlowID": "E60B4840-F858-437A-919A-049E3A2254A1", 
+            "Workflow_WorkFlowName": "TOM", 
+            "Workflow_SortOrder": "10", 
+            "WorkflowStepGroups":
+          [
+            {
+                "WorkflowStepGroupID": "98D86579-EF1F-4985-974C-2EAB3FE9F32B", 
+                "WorkflowStepGroup_CompanyType": "Consignee", 
+                "WorkflowStepGroup_Name": "ASI", 
+                "WorkflowStepGroup_DisplayName": "ASI", 
+                "WorkflowStepGroup_SortOrder": "10", 
+                "WorkflowStepGroup_CountRetrievalURL": "",
+                "WorkflowSteps": [
+                    {
+                    "WorkflowStepID":"0A0DD743-4A28-4C38-9454-378B3EB56C18",
+                    "WorkflowStep_StepName":"Operations Other Order Input",
+                    "WorkflowStep_WorkflowID":"E60B4840-F858-437A-919A-049E3A2254A1",
+                    "WorkflowStep_WorkflowName":"TOM",
+                    "WorkflowStep_WorkflowStepGroupSortOrder":"10",
+                    "WorkflowStep_CompanyTypeID":"8B876148-F7A8-41BB-95FA-F3F5D56B776E",
+                    "WorkflowStep_TypeOfCompany":"Warehousing",
+                    "WorkflowStep_WorkflowStepTypeID":"F69FBE0F-D3E6-4D97-B524-005CEB1EED7B",
+                    "WorkflowStep_StepTypeName":"Queue",
+                    "WorkflowStep_DataGroupID":"7A85BCD3-5B8D-485C-98C7-12837BA3C6D9",
+                    "WorkflowStep_DataGroupName":"TMS",
+                    "WorkflowStep_DataRetrevalURL":""
+                },
+                    {
+                        "WorkflowStepID":"44EEEF79-D086-4802-A5F2-905976D700D8",
+                        "WorkflowStep_StepName":"Operations New Inbound Loads",
+                        "WorkflowStep_WorkflowID":"E60B4840-F858-437A-919A-049E3A2254A1",
+                        "WorkflowStep_WorkflowName":"TOM",
+                        "WorkflowStep_WorkflowStepGroupSortOrder":"20",
+                        "WorkflowStep_CompanyTypeID":"8B876148-F7A8-41BB-95FA-F3F5D56B776E",
+                        "WorkflowStep_TypeOfCompany":"Warehousing",
+                        "WorkflowStep_WorkflowStepTypeID":"F69FBE0F-D3E6-4D97-B524-005CEB1EED7B",
+                        "WorkflowStep_StepTypeName":"Queue",
+                        "WorkflowStep_DataGroupID":"7A85BCD3-5B8D-485C-98C7-12837BA3C6D9",
+                        "WorkflowStep_DataGroupName":"TMS",
+                        "WorkflowStep_DataRetrevalURL":"",
+                        "WorkflowStepColumns":
+                        [
+                              {
+                                  "DisplayName":"Actual Pickup Date/Time",
+                                  "ColumnEditorTypeID":"Actual Pickup Date/Time",
+                                  "FieldType":"Date",
+                                  "IsEditable":"1",
+                                  "TableName":"[data].[TMSLoad]",
+                                  "IsKeyField":"0",
+                                  "TableColumnName":"ActualPickupDate",
+                                  "TableKeyColumnName":"LoadID",
+                                  "ViewKeyColumnName":"LoadID",
+                                  "DDLType":""
+                              },
+                              {
+                                  "DisplayName":"Carrier",
+                                  "ColumnEditorTypeID":"A96FCF4B-3DCA-4DB1-B475-E09DFADF4E7E",
+                                  "FieldType":"DropDownList",
+                                  "IsEditable":"1",
+                                  "TableName":"[data].[TMSLoad]",
+                                  "IsKeyField":"0",
+                                  "TableColumnName":"CarrierID",
+                                  "TableKeyColumnName":"LoadID",
+                                  "ViewKeyColumnName":"LoadID",
+                                  "DDLType":"AllTMSCarrier",
+                                  "DDLData":
+                                  [
+                                      {"Key":"Value"},
+                                      {"Key":"Value"}
+                                  ]
+                              },
+                              {
+                                  "DisplayName":"Second Stop",
+                                  "ColumnEditorTypeID":"46A628F6-BFFC-4C18-B452-A9BB4EF015CC",
+                                  "FieldType":"TextBox",
+                                  "IsEditable":"1",
+                                  "TableName":"[data].[TMSLoad]",
+                                  "IsKeyField":"0",
+                                  "TableColumnName":"SecondStopLocationNumber",
+                                  "TableKeyColumnName":"LoadID",
+                                  "ViewKeyColumnName":"LoadID",
+                                  "DDLType":""
+                              },
+                              {
+                                  "DisplayName":"Print",
+                                  "ColumnEditorTypeID":"4E65EA68-89DA-466B-A7B7-C4D4E45BE5E4",
+                                  "FieldType":"Link",
+                                  "IsEditable":"0",
+                                  "TableName":"",
+                                  "IsKeyField":"",
+                                  "TableColumnName":"",
+                                  "TableKeyColumnName":"",
+                                  "ViewKeyColumnName":"",
+                                  "DDLType":"",
+                                  "NavigationData":
+                                  {
+                                     "NavigationID":"AFDDF883-B55D-460E-8165-28C7EFB12D5B",
+                                     "WorkflowStepID":"3C840482-62F1-46F6-A608-E5D55273981B",
+                                     "AppendKeyValue":"1",
+                                     "AppendParentKeyValue":"0",
+                                     "AppendColumnKeyValue":"0",
+                                     "AsPopup":"1",
+                                     "Parm1":"",
+                                     "Parm2":"",
+                                     "Parm3":"",
+                                     "Parm4":"",
+                                     "AppendSelectedRowKeyValue":"",
+                                     "AppendCustomKeyValue":"",
+                                     "IsHover":"",
+                                     "ParentKey_DataGroupColumnID":"",
+                                     "Note":""
+                                  }
+                              },
+                              {
+                                  "DisplayName":"Void and Clone",
+                                  "ColumnEditorTypeID":"4E65EA68-89DA-466B-A7B7-C4D4E45BE5E4",
+                                  "FieldType":"Link",
+                                  "IsEditable":"0",
+                                  "TableName":"",
+                                  "IsKeyField":"",
+                                  "TableColumnName":"",
+                                  "TableKeyColumnName":"",
+                                  "ViewKeyColumnName":"",
+                                  "DDLType":"",
+                                  "ActionData":
+                                  {
+                                      "ActionID":"",	
+                                      "ActionName":"Void and Clone",	
+                                      "InvokeSave":"2",	
+                                      "DispatchServer":"",	
+                                      "CalloutDesc":"Void and Clone",	
+                                      "CalloutProc":"actioncallout.VoidandCloneInvoice"	
+  
+                                  }
+                              }
+                          ],
+                          "DataGrids":
+                          [
+                              {
+                                "DataGridID":"AB7DE49C-25CE-4C35-A220-C1030D3B9A98",
+                                "DataGroupID":"7A85BCD3-5B8D-485C-98C7-12837BA3C6D9",
+                                "DataGroupName":"TMS",
+                                "DataGrid_DataRetrievalURL":"",
+                                "DataGrid_ToolbarItems":
+                                [
+                                   {
+                                  "DataGridToolbarItemID":"0ACFDC7F-49F0-46E5-A33F-4626440A463C",
+                                  "Caption":"Uploaded Invoices",
+                                  "Icon":"glyphicon glyphicon-file",
+                                  "SortOrder":"4",
+                                  "IsAddButton":"",
+                                  "IsDelete":"",
+                                  "DDLType":"",
+                                  "RowSelectionType":"1",
+                                  "NavigateFirst":"",
+                                  "DoNotRunValidationsProc":"",
+                                  "DoNotCheckRequiredFields":"",
+                                  "NavigationData":
+                                  {
+                                     "NavigationID":"06E1B514-2EF2-473F-85BB-82C3DF913653",
+                                     "WorkflowStepID":"6F23BCFB-459E-428C-AC75-46D1B8E40476",
+                                     "AppendKeyValue":"1",
+                                     "AppendParentKeyValue":"0",
+                                     "AppendColumnKeyValue":"0",
+                                     "AsPopup":"0",
+                                     "Parm1":"",
+                                     "Parm2":"",
+                                     "Parm3":"",
+                                     "Parm4":"",
+                                     "AppendSelectedRowKeyValue":"",
+                                     "AppendCustomKeyValue":"",
+                                     "IsHover":"",
+                                     "ParentKey_DataGroupColumnID":"",
+                                     "Note":""
+                                  }
+                                   },
+                                   {
+                                  "DataGridToolbarItemID":"46C2E22A-8B7F-4B2D-80C1-00361C1A9D77",
+                                  "Caption":"Dispatch",
+                                  "Icon":"glyphicon glyphicon-check",
+                                  "SortOrder":"2",
+                                  "IsAddButton":"",
+                                  "IsDelete":"",
+                                  "DDLType":"",
+                                  "RowSelectionType":"2",
+                                  "NavigateFirst":"",
+                                  "DoNotRunValidationsProc":"",
+                                  "DoNotCheckRequiredFields":"",
+                                  "ActionData":
+                                  {
+                                      "ActionID":"62DFDF2D-8F02-4BC8-BD0F-15FBCA1A9CAF",	
+                                      "ActionName":"Submit Container Avail",	
+                                      "InvokeSave":"1",	
+                                      "ConfirmationMessage":"",
+                                      "DispatchServer":"",	
+                                      "CalloutDesc":"Submit Container Avail",	
+                                      "CalloutProc":"[actioncallout].[SubmitContainerAvail]"	
+  
+                                  }
+                                   }
+  
+                                ],
+                                "DataGridColumns":
+                                [
+                                   {
+                                      "DataGridColumnID":"",
+                                      "ColumnName":"LoadNumber",
+                                      "DisplayName":"Load Number",
+                                      "ColumnDesription":"Load Number",
+                                      "SortOrder":"7",
+                                      "FieldType":"",
+                                      "DDLName":"",
+                                      "IsEditable":"0",
+                                      "IsVisible":"1",
+                                      "IsRequired":"0",
+                                      "MaxInputLength":"0",
+                                      "IsAdditional":"0",
+                                      "TableName":"[data].[TMSLoad]",
+                                      "IsKeyField":"0",
+                                      "TableColumnName":"LoadNumber",
+                                      "TableKeyColumnName":"LoadID",
+                                      "ViewKeyColumnName":"LoadID",
+                                      "DDLType":""
+                                   },
+                                   {
+                                      "DataGridColumnID":"",
+                                      "ColumnName":"PayStatus_DataChoiceID",
+                                      "DisplayName":"Pay Status",
+                                      "ColumnDesription":"Pay Status",
+                                      "SortOrder":"8",
+                                      "FieldType":"DropDownList",
+                                      "DDLName":"PayStatus",
+                                      "IsEditable":"1",
+                                      "IsVisible":"1",
+                                      "IsRequired":"0",
+                                      "MaxInputLength":"0",
+                                      "IsAdditional":"0",
+                                      "TableName":"[data].[TMSLoad]",
+                                      "IsKeyField":"0",
+                                      "TableColumnName":"PayStatus_DataChoiceID",
+                                      "TableKeyColumnName":"LoadID",
+                                      "ViewKeyColumnName":"LoadID",
+                                      "DDLType":""
+                                   },
+                                   {
+                                      "DataGridColumnID":"",
+                                      "ColumnName":"CommentsLink",
+                                      "DisplayName":"Comments",
+                                      "ColumnDesription":"Comments",
+                                      "SortOrder":"200",
+                                      "FieldType":"Link",
+                                      "DDLName":"",
+                                      "IsEditable":"0",
+                                      "IsVisible":"1",
+                                      "IsRequired":"0",
+                                      "MaxInputLength":"0",
+                                      "IsAdditional":"0",
+                                      "TableName":"",
+                                      "IsKeyField":"0",
+                                      "TableColumnName":"",
+                                      "TableKeyColumnName":"",
+                                      "ViewKeyColumnName":"",
+                                      "DDLType":"",
+                                      "NavigationData":
+                                      {
+                                         "NavigationID":"",
+                                         "WorkflowStepID":"",
+                                         "AppendKeyValue":"1",
+                                         "AppendParentKeyValue":"0",
+                                         "AppendColumnKeyValue":"0",
+                                         "AsPopup":"1",
+                                         "Parm1":"AAE47042-9F53-4E3D-ACC6-25B90994A1D7",
+                                         "Parm2":"",
+                                         "Parm3":"",
+                                         "Parm4":"",
+                                         "AppendSelectedRowKeyValue":"0",
+                                         "AppendCustomKeyValue":"",
+                                         "IsHover":"",
+                                         "ParentKey_DataGroupColumnID":"",
+                                         "Note":""
+                                      }
+                                   }
+                                ]
+                              }
+                          ]
+                      }
+                     ]
+                  },
+                  {
+                     "WorkflowStepGroupID": "315B0D1D-FB1A-4713-BD9E-B73F2F66D9BA", 
+                     "WorkflowStepGroup_WorkFlowID": "E60B4840-F858-437A-919A-049E3A2254A1", 
+                     "WorkflowStepGroup_WorkFlowName": "TOM", 
+                     "WorkflowStepGroup_CompanyType": "Consignee", 
+                     "WorkflowStepGroup_Name": "TOM Admin", 
+                     "WorkflowStepGroup_DisplayName": "Admin", 
+                     "WorkflowStepGroup_SortOrder": "60", 
+                     "WorkflowStepGroup_CountRetrievalURL": ""
+                  },
+                  {
+                     "WorkflowStepGroupID": "A3D34178-F7E7-4FB3-BEB6-3A77D97B7C34", 
+                     "WorkflowStepGroup_WorkFlowID": "E60B4840-F858-437A-919A-049E3A2254A1", 
+                     "WorkflowStepGroup_WorkFlowName": "TOM", 
+                     "WorkflowStepGroup_CompanyType": "Consignee", 
+                     "WorkflowStepGroup_Name": "Search", 
+                     "WorkflowStepGroup_DisplayName": "Search", 
+                     "WorkflowStepGroup_SortOrder": "70", 
+                     "WorkflowStepGroup_CountRetrievalURL": ""
+                  }
+                ]
+            }
+        ]
+}

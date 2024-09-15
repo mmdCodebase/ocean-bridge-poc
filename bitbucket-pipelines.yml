@@ -1,0 +1,63 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+image: atlassian/default-image:3
+definitions:
+  steps:   
+    - step: &build-back-end-prod
+          name: 'Build, tag, push image to ECR'
+          script:
+          # build the image
+          - echo "Build, tag, push image to ECR"
+          #- export TIMESTAMP= $BITBUCKET_COMMIT
+          #- export IMAGE_NAME=agl-portal            
+          #- export TAG="$TIMESTAMP"
+          - cd .
+          - apt-get update && apt-get install -y unzip git
+          - ls
+          - cd ocean-bridge-backend
+          - git clone https://agl-ikim:${BITBUCKET_API_KEY}@bitbucket.org/aglscc/agl-python-helpers.git
+          - docker build . --tag agl-ocean-bridge-poc
+          - docker tag agl-ocean-bridge-poc agl-ocean-bridge-poc:${BITBUCKET_BUILD_NUMBER}
+          - pipe: atlassian/aws-ecr-push-image:1.3.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID # Optional if already defined in the context.
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY # Optional if already defined in the context.
+              AWS_DEFAULT_REGION: 'us-east-1' # Optional if already defined in the context.
+              IMAGE_NAME: 'agl-ocean-bridge-poc:${BITBUCKET_BUILD_NUMBER}'
+              TAGS: "$TIMESTAMP $BITBUCKET_BUILD_NUMBER $BITBUCKET_COMMIT"
+          services:
+            - docker
+    
+    - step: &deploy-back-end-prod
+          name: 'Deploy image to ECS'
+          script:
+            - export IMAGE_NAME="586171400497.dkr.ecr.us-east-1.amazonaws.com/agl-ocean-bridge-poc:${BITBUCKET_BUILD_NUMBER}"
+            - export BUILD_NUMBER="${BITBUCKET_BUILD_NUMBER}"
+            - export PROJECT_NAME=${PROJECT_NAME}
+            - envsubst < task-definition-template.json >  task-definition.json
+            #- aws ecs describe-task-definition --task-definition agl-portal --query taskDefinition > task-definition.json
+            - pipe: atlassian/aws-ecs-deploy:1.6.2
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: 'us-east-1'
+                CLUSTER_NAME: 'agl-ocean-bridge-poc'
+                SERVICE_NAME: 'agl-ocean-bridge-poc'
+                TASK_DEFINITION: 'task-definition.json'
+                FORCE_NEW_DEPLOYMENT: 'true'
+    
+
+pipelines:
+  default:
+      #- step: *build-front-end
+    - step:
+        name: 'Run Unit tests'
+        script:
+          - pytest
+  branches:
+    release/*:
+      - step: *build-back-end-prod
+      - step: *deploy-back-end-prod  
